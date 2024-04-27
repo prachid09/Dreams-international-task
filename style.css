@@ -1,0 +1,539 @@
+*{
+    font-family: IBM Plex Sans,sans-serif;
+}
+.navhead{
+    background-image:linear-gradient(119deg,#4fd27e,#d3f856)
+}
+.banner{
+    justify-content: center;
+        align-items: center;
+        padding: 14px 10px;
+}
+.navimg img{
+    font-size: 16px;
+}
+.navimg1 img{
+    font-size: 16px;
+}
+.navhead p, strong{
+    font-size: 0.7rem;
+}
+.navhead strong{
+    font-size: 0.7rem;
+}
+.main{
+    background-color: black;
+    overflow: hidden;
+}
+/* .mainimg{
+    /* opacity: 0.1; */
+    /* background-image: linear-gradient(201deg,rgba(78,159,61,.4),rgba(216,233,168,.18)); */
+
+.mainheading p {
+    color: white;
+    font-size: 2rem;
+}
+
+.maincontent span{
+    background-image: linear-gradient(118deg, #4e9f3d, #d8e9a8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2rem;
+} 
+.mainsub{
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+.datecontent{
+    background-color: #39482d;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        min-height: 38px;
+        max-height: 70px;
+        border: 1px solid rgba(166, 239, 103, .2);
+    border-radius: 8px;
+    align-items: center;
+    /* padding: 8px 12px; */
+}
+.datecontent div{
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.video{
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+}
+.play{
+    z-index: 1;
+    position: absolute;
+}
+.register{
+    background-color: transparent;
+    color: #010101;
+    text-align: center;
+    background-image: linear-gradient(128deg, #4e9f3d, #afc570);
+    border-radius: 3.125rem;
+    width: 100%;
+    padding: 20px 76px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    box-shadow: 0 6px 21px rgba(118, 255, 89, .5);
+    /* text-decoration: none; */
+    cursor: pointer;
+    display: inline-block;
+}
+.head1 p{
+    font-size: 1rem;
+    color: white;
+}
+.head1 img{
+    width: 100px;
+    border: .8px solid rgba(255, 255, 255, .6);
+    border-radius: 12px;
+    padding: 12px;
+}
+.headimg{
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.head2{
+    background-color: #191a19;
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    width: 50%;
+}
+.headflex{
+   justify-content: space-evenly;
+   align-items: center;
+}
+.head2 p{
+    color: white;
+    font-size: 1rem;
+}
+.head2 img{
+    width: 24px;
+    height: 24px;
+}
+.head2 h6{
+    color: white;
+    font-size: 0.75rem;
+}
+#id1{
+    color: white;
+    opacity: 0.7;
+    font-size: 0.75rem;
+}
+#id2{
+    color: white;
+    opacity: 0.7;
+    font-size: 0.75rem;
+}
+.reviews{
+    border: .9px solid #a6a6a6;
+    border-radius: 12px;
+    padding: .5rem;
+}
+.marketing{
+    background-color: black;
+}
+.marketing h2{
+    font-size: 1.75rem;
+    color: white;
+}
+.marketing span{
+    background-image: linear-gradient(118deg, #4e9f3d, #d8e9a8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.marketimg{
+    /* grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr; */
+    width: 70%;
+}
+.marketingimages{
+    height: 32px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.marketingimages img{
+     height: 16px;
+     position: absolute;
+}
+.workshop{
+    background-color: black;
+}
+.bonus{
+    background-color: black;
+}
+.accrd{
+    background-image: linear-gradient(114deg, #4e9f3d, #1e5128);
+    border: .5px solid #d8e9a8;
+    border-radius: 8px;
+    color: white;
+    margin-top: 9px;
+}
+.card1{
+    background-image: linear-gradient(150deg, rgba(25, 26, 25, 0), #1e5128);
+    border: .65px solid #4e9f3d;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 16px;
+}
+.card1 div{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 1rem;
+}
+.card1 span{
+    font-size: 3.1rem;
+    color: white;
+    text-shadow: 2.5px 2.5px 1px #4e9f3d;
+}
+.workshop p{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+.bonus p{
+    padding-top: 20px;
+    font-size: 1rem;
+    color: white;
+}
+.bonus span{
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(118deg, #4e9f3d, #d8e9a8);
+    background-clip: text;
+}
+.mentorwrap{
+    background-color: black;
+}
+.mentpic{
+    background-color: #191a19;
+    border: 1px solid #d8e9a8;
+    padding: 10px;
+    color: white;
+    width: 80%;
+}
+.growth{
+    background-color: black;
+}
+.growth h2{
+    font-size: 1.7rem;
+    color: white;
+    padding-top: 30px;
+}
+.gtext{
+    font-size: 0.9rem;
+    color: white;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.gtext span{
+    background-image: linear-gradient(118deg, #4e9f3d, #d8e9a8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.grate{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.grate div{
+    border: .5px solid rgba(255, 255, 255, .6);
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+}
+.grate span{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    width: 90%;
+}
+.growth h5{
+    font-size: 2rem;
+    color: white;
+}
+.gimage{
+    border: .5px solid rgba(255, 255, 255, .6);
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+    width: 80%;
+    margin: 0 auto;
+}
+#ghead{
+    font-size: .875rem;
+    font-weight: 500;
+    padding-top: 40px;
+}
+#ghead1{
+    font-size: .875rem;
+    font-weight: 500;
+    color: white;
+    padding-top: 20px;
+}
+.angelimg{
+    justify-content: center;
+}
+.angel img{
+    margin: 10px;
+}
+.chatgpt{
+    background-color: black;
+    color: white;
+}
+.gpthead{
+    background-image: linear-gradient(118deg, #4e9f3d, #d8e9a8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.gptcontent{
+    background-color: #1e5128;
+    border: 1px solid #d8e9a8;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 30px 28px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.gptreg{
+    width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.gptcontent a{
+    background-color: transparent;
+    color: #010101;
+    text-align: center;
+    background-image: linear-gradient(128deg, #4e9f3d, #afc570);
+    border-radius: 3.125rem;
+    width: 100%;
+    padding: 20px 76px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    box-shadow: 0 6px 21px rgba(118, 255, 89, .5);
+    /* text-decoration: none; */
+    cursor: pointer;
+    display: inline-block;
+}
+.foot{
+    background-color: black;
+}
+.policy{
+    padding-top: 40px;
+}
+.policy a{
+    color: #7f7f7f;
+    font-size: 0.6rem;
+}
+.foot address p{
+    padding-top: 40px;
+    color: #7f7f7f;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.6rem;
+}
+.brline{
+    margin: 7.5rem auto;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.brline img{
+    max-width: 45rem;
+}
+.menthead h2{
+    color: white;
+    font-weight: 500;
+}
+.menthead span{
+    background-image: linear-gradient(118deg, #4e9f3d, #d8e9a8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.faqs{
+    background-color: black;
+    padding-top: 8rem;
+}
+.faqacc{
+    background-color: #191a19;
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.75rem 10.9375rem;
+    width: 90%;
+  margin: 0 auto;
+}
+.faq{
+    /* background-image: linear-gradient(114deg, #4e9f3d, #1e5128); */
+    /* border: .5px solid #d8e9a8;
+    border-radius: 8px; */
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgba(216, 233, 168, .2);
+    border-radius: 8px;
+}
+.faqs button{
+    background-color: transparent;
+}
+@media(min-width:576px){
+/* .main img{
+    position: absolute;
+    padding: 2rem;
+    top: 88px;
+    right: -1px;
+} */
+.reg{
+    width: 25rem;
+    margin: 0 auto;
+    text-align: center;
+}
+}
+
+@media(min-width:768px){
+    .navimg img{
+        padding-right: 1em;
+    }
+    .navimg1 img{
+        padding-left: 1em;
+    }
+    .navhead p, strong{
+        font-size: 1rem;
+    }
+    .navhead strong{
+        font-size: 0.8rem;
+    }
+    .navimg img{
+        font-size: 34px;
+    }
+    .navimg1 img{
+        font-size: 34px;
+    }
+    .head1 p{
+        font-size: 1.5rem;
+    }
+    .head1 img{
+        width: 180px;
+    }
+    .card1{
+        width: 50%;
+    }
+    .bonus p{
+        padding-top: 30px;
+        font-size: 1.5rem;
+    }
+    .workshop p{
+        font-size: 2rem;
+    }
+    .mentor figcaption{
+        width: 60%;
+    }
+    .marketing h2{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .workshop p{
+        padding-top: 5rem;
+        padding-bottom: 20px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .accord{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .bonus p{
+        padding-top: 5rem;
+    }
+    .card1{
+        width: 37%;
+        margin: 0 auto;
+        margin-top: 15px;
+
+    }
+    .mentpic{
+        margin: 0 auto;
+    }
+    .mentorwrap{
+        padding-bottom: 5rem;
+    }
+    .gtext p{
+        font-size: 1.5rem;
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+    .grate{
+        justify-content: center;
+    }
+    .gimage{
+        width: 36%;
+    }
+    #ghead{
+        padding-top: 4rem;
+    }
+    .growth{
+        padding-bottom: 4.5rem;
+    }
+    .gptcontent{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .chatgpt{
+        padding-bottom: 10px;
+    }
+    .brline img{
+        max-width: 77rem;
+    }
+}
+@media(min-width:992px){
+    .mainsub{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .head2{
+        width: 30%;
+    }
+    .head2 h6{
+        font-size: 1.1rem;
+    }
+    .marketing h2{
+        font-size: 2rem;
+    }
+}
+@media(min-width:1200px){
+    .navhead p{
+        font-size: 1.2rem;
+    }
+    .navhead strong{
+        font-size: 1.2rem;
+    }
+}
